@@ -272,7 +272,7 @@
   background-color: #3f96f3;
 }
 
-.reservations__fieldset--checkbox {
+.reservations__fieldset--with-checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
