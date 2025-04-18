@@ -192,7 +192,7 @@
   margin: 24px 80px 0;
 }
 
-.reservations {
+.reservation {
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@
   text-align: center;
 }
 
-.reservations__title {
+.reservation__title {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -210,7 +210,7 @@
   line-height: 52px;
 }
 
-.reservations__form {
+.reservation__form {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -218,13 +218,13 @@
   margin: 0 auto;
 }
 
-.reservations__fieldset {
+.reservation__fieldset {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.reservations__label {
+.reservation__label {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -233,7 +233,7 @@
   text-align: left;
 }
 
-.reservations__input {
+.reservation__input {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -244,16 +244,16 @@
   border-radius: 4px;
 }
 
-.reservations__input[type="number"] {
+.reservation__input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.reservations__input[type="number"]::-webkit-inner-spin-button,
-.reservations__input[type="number"]::-webkit-outer-spin-button {
+.reservation__input[type="number"]::-webkit-inner-spin-button,
+.reservation__input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
 
-.reservations__button {
+.reservation__button {
   padding: 20px;
   background-color: #1878dc;
   color: #ffffff;
@@ -268,18 +268,18 @@
   line-height: 20px;
 }
 
-.reservations__button:hover {
+.reservation__button:hover {
   background-color: #3f96f3;
 }
 
-.reservations__fieldset_checkbox {
+.reservation__fieldset_checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
 }
 
-.reservations__checkbox {
+.reservation__checkbox {
   margin-right: 8px;
   border-radius: 2px;
 }
