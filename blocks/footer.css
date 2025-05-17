@@ -11,6 +11,11 @@
   align-items: flex-start;
 }
 
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+
 .footer__social-link {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -35,7 +40,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin: 108px 0 0;
+  margin: 108px 60px 0;
 }
 
 .footer__list {
@@ -55,6 +60,8 @@
 
 .footer__social-icon {
   margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__list-item {
